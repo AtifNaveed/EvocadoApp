@@ -1,0 +1,367 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C08E9637233CB87A006AB140 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C08E9636233CB87A006AB140 /* AppDelegate.swift */; };
+		C08E9639233CB87A006AB140 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C08E9638233CB87A006AB140 /* SceneDelegate.swift */; };
+		C08E963B233CB87A006AB140 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C08E963A233CB87A006AB140 /* HomeView.swift */; };
+		C08E963D233CB87B006AB140 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C08E963C233CB87B006AB140 /* Assets.xcassets */; };
+		C08E9640233CB87B006AB140 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C08E963F233CB87B006AB140 /* Preview Assets.xcassets */; };
+		C08E9643233CB87B006AB140 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C08E9641233CB87B006AB140 /* LaunchScreen.storyboard */; };
+		C08E964B233CB969006AB140 /* StaticList.swift in Sources */ = {isa = PBXBuildFile; fileRef = C08E964A233CB969006AB140 /* StaticList.swift */; };
+		C08E964D233CB97A006AB140 /* DynamicList.swift in Sources */ = {isa = PBXBuildFile; fileRef = C08E964C233CB97A006AB140 /* DynamicList.swift */; };
+		C08E964F233CB987006AB140 /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C08E964E233CB987006AB140 /* DetailView.swift */; };
+		C08E9651233CB9AA006AB140 /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = C08E9650233CB9AA006AB140 /* Item.swift */; };
+		C08E9653233CB9B8006AB140 /* ItemRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = C08E9652233CB9B8006AB140 /* ItemRow.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		C08E9633233CB87A006AB140 /* EvocadoApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EvocadoApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C08E9636233CB87A006AB140 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C08E9638233CB87A006AB140 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		C08E963A233CB87A006AB140 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		C08E963C233CB87B006AB140 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C08E963F233CB87B006AB140 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		C08E9642233CB87B006AB140 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C08E9644233CB87B006AB140 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C08E964A233CB969006AB140 /* StaticList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StaticList.swift; sourceTree = "<group>"; };
+		C08E964C233CB97A006AB140 /* DynamicList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DynamicList.swift; sourceTree = "<group>"; };
+		C08E964E233CB987006AB140 /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
+		C08E9650233CB9AA006AB140 /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
+		C08E9652233CB9B8006AB140 /* ItemRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemRow.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C08E9630233CB87A006AB140 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C08E962A233CB87A006AB140 = {
+			isa = PBXGroup;
+			children = (
+				C08E9635233CB87A006AB140 /* EvocadoApp */,
+				C08E9634233CB87A006AB140 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C08E9634233CB87A006AB140 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C08E9633233CB87A006AB140 /* EvocadoApp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C08E9635233CB87A006AB140 /* EvocadoApp */ = {
+			isa = PBXGroup;
+			children = (
+				C08E9636233CB87A006AB140 /* AppDelegate.swift */,
+				C08E9638233CB87A006AB140 /* SceneDelegate.swift */,
+				C08E963A233CB87A006AB140 /* HomeView.swift */,
+				C08E964A233CB969006AB140 /* StaticList.swift */,
+				C08E964C233CB97A006AB140 /* DynamicList.swift */,
+				C08E964E233CB987006AB140 /* DetailView.swift */,
+				C08E9650233CB9AA006AB140 /* Item.swift */,
+				C08E9652233CB9B8006AB140 /* ItemRow.swift */,
+				C08E963C233CB87B006AB140 /* Assets.xcassets */,
+				C08E9641233CB87B006AB140 /* LaunchScreen.storyboard */,
+				C08E9644233CB87B006AB140 /* Info.plist */,
+				C08E963E233CB87B006AB140 /* Preview Content */,
+			);
+			path = EvocadoApp;
+			sourceTree = "<group>";
+		};
+		C08E963E233CB87B006AB140 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				C08E963F233CB87B006AB140 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C08E9632233CB87A006AB140 /* EvocadoApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C08E9647233CB87B006AB140 /* Build configuration list for PBXNativeTarget "EvocadoApp" */;
+			buildPhases = (
+				C08E962F233CB87A006AB140 /* Sources */,
+				C08E9630233CB87A006AB140 /* Frameworks */,
+				C08E9631233CB87A006AB140 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = EvocadoApp;
+			productName = EvocadoApp;
+			productReference = C08E9633233CB87A006AB140 /* EvocadoApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C08E962B233CB87A006AB140 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+				ORGANIZATIONNAME = Atif;
+				TargetAttributes = {
+					C08E9632233CB87A006AB140 = {
+						CreatedOnToolsVersion = 11.0;
+					};
+				};
+			};
+			buildConfigurationList = C08E962E233CB87A006AB140 /* Build configuration list for PBXProject "EvocadoApp" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C08E962A233CB87A006AB140;
+			productRefGroup = C08E9634233CB87A006AB140 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C08E9632233CB87A006AB140 /* EvocadoApp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C08E9631233CB87A006AB140 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C08E9643233CB87B006AB140 /* LaunchScreen.storyboard in Resources */,
+				C08E9640233CB87B006AB140 /* Preview Assets.xcassets in Resources */,
+				C08E963D233CB87B006AB140 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C08E962F233CB87A006AB140 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C08E9637233CB87A006AB140 /* AppDelegate.swift in Sources */,
+				C08E964F233CB987006AB140 /* DetailView.swift in Sources */,
+				C08E9639233CB87A006AB140 /* SceneDelegate.swift in Sources */,
+				C08E963B233CB87A006AB140 /* HomeView.swift in Sources */,
+				C08E9651233CB9AA006AB140 /* Item.swift in Sources */,
+				C08E964B233CB969006AB140 /* StaticList.swift in Sources */,
+				C08E964D233CB97A006AB140 /* DynamicList.swift in Sources */,
+				C08E9653233CB9B8006AB140 /* ItemRow.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		C08E9641233CB87B006AB140 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C08E9642233CB87B006AB140 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C08E9645233CB87B006AB140 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C08E9646233CB87B006AB140 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C08E9648233CB87B006AB140 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"EvocadoApp/Preview Content\"";
+				DEVELOPMENT_TEAM = HC374WERJC;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = EvocadoApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.atif.gcucs-gmail.com.EvocadoApp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C08E9649233CB87B006AB140 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"EvocadoApp/Preview Content\"";
+				DEVELOPMENT_TEAM = HC374WERJC;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = EvocadoApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.atif.gcucs-gmail.com.EvocadoApp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C08E962E233CB87A006AB140 /* Build configuration list for PBXProject "EvocadoApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C08E9645233CB87B006AB140 /* Debug */,
+				C08E9646233CB87B006AB140 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C08E9647233CB87B006AB140 /* Build configuration list for PBXNativeTarget "EvocadoApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C08E9648233CB87B006AB140 /* Debug */,
+				C08E9649233CB87B006AB140 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C08E962B233CB87A006AB140 /* Project object */;
+}
