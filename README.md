@@ -3,7 +3,8 @@
 **SwiftUI**
 - List/Table
 - Navigation
-- V/HStack
+- VStack
+- HStack
 
 
 Typical mater detail example using SwiftUI.
