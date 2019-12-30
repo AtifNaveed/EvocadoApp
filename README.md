@@ -1,7 +1,7 @@
 # Evocado App
 
 **SwiftUI**
-- List/Table
+- List or Table
 - Navigation
 - VStack
 - HStack
