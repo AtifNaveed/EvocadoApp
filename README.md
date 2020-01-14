@@ -1,6 +1,6 @@
 # Evocado App
 
-**SwiftUI with Example**
+**SwiftUI with example**
 - List or Table
 - Navigation
 - VStack
