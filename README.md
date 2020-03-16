@@ -8,4 +8,4 @@
 - 
 
 
-Typical mater detail example using SwiftUI
+Typical mater detail example using SwiftUI.
